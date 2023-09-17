@@ -1,0 +1,473 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a modern font family */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Create a background color and text color for the entire page */
+body {
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* Style the header */
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #0059ff;
+}
+
+/* Style the hero section */
+.hero {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #eeff00;
+    color: #000000;
+}
+
+/* Style other sections as needed */
+/* You can add styles for the 'About Us', 'Upcoming Events', 'Membership', and 'Contact Us' sections here */
+
+/* Style the footer */
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Add media queries for responsive design if needed */
+@media (max-width: 768px) {
+    /* Add responsive styles here */
+}
+
+
+
+/* Reset default margin and padding for the body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Use a modern font */
+}
+
+/* Style the 'about' section */
+#about {
+    background-color: #ffffff; /* Background color */
+    text-align: center;
+    padding: 50px; /* Add spacing around the content */
+}
+
+/* Style the 'about-container' */
+.about-container {
+    max-width: 600px; /* Limit the width of the container */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+/* Style the heading */
+h2 {
+    font-size: 2rem; /* Large font size */
+    color: #333; /* Text color */
+}
+
+/* Style the paragraph */
+p {
+    font-size: 1.2rem; /* Medium font size */
+    color: #666; /* Text color */
+    line-height: 1.5; /* Line spacing */
+}
+
+
+
+/* Apply a shadow to the entire container */
+.bg-white {
+    box-shadow: 0 4px 6px rgba(250, 250, 250, 0.1);
+}
+
+/* Style the image with rounded corners and a shadow */
+.rounded-full {
+    border-radius: 10%; /* Create a circular shape */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Style the text */
+.text-gray-900 {
+    color: #333; /* Change text color to a darker gray */
+}
+
+.text-indigo-600 {
+    color: #0026ff; /* Change text color to an indigo shade */
+}
+
+/* Increase font size for the heading */
+.text-3xl {
+    font-size: 1.875rem;
+}
+
+/* Increase font size for the name */
+.text-base {
+    font-size: 1rem;
+}
+
+/* Add some margin for better spacing */
+.h-16 {
+    margin-right: 0.5rem;
+}
+
+/* Style the role text */
+.text-sm {
+    font-size: 0.875rem;
+}
+
+/* Center the text in the list items */
+.items-center {
+    align-items: center;
+}
+    /* Animation for the hero section */
+    .hero h2 {
+        animation: fadeInUp 1.5s ease-in-out;
+    }
+    .hero p {
+        animation: fadeInUp 1.5s ease-in-out 0.5s;
+    }
+    .cta-button {
+        animation: scaleIn 1s ease-in-out 1s;
+    }
+
+    /* Keyframes for fadeInUp and scaleIn animations */
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @keyframes scaleIn {
+        from {
+            transform: scale(0);
+        }
+        to {
+            transform: scale(1);
+        }
+    }
+
+.fade-in {
+    opacity: 0; /* Set initial opacity to 0 (completely transparent) */
+    animation: fadeIn 1s ease-in-out forwards; /* Use the fadeIn animation with a 1-second duration */
+  }
+
+  /* Define the keyframes for the fadeIn animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0; /* Start with opacity 0 */
+    }
+    to {
+      opacity: 1; /* End with opacity 1 (fully visible) */
+    }
+  }
+
+
+  .image-container {
+    max-width: 75%;
+    overflow: hidden;
+    border-radius: 100px;
+    margin: 0 auto; /* Center the container horizontally */
+    text-align: center; /* Center the image horizontally within the container */
+}
+
+.image-container img {
+    display: inline-block; /* Display the image as inline-block for centering */
+    max-width: 100%; /* Make the image take the full width of its container */
+    height: auto;
+    vertical-align: 100px;
+}
+
+
+.signup-container {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.signup-container h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.signup-container h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.signup-container p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.iframe-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Adjust the height as needed */
+    border: 2px solid #333; /* Border around the container */
+    box-sizing: border-box;
+}
+
+/* Style the iframe itself */
+.iframe-container iframe {
+    width: 100%; /* Make the iframe fill the container */
+    height: 100%; /* Make the iframe fill the container */
+    border: none; /* Remove iframe border if any */
+}
+
+
+.team-member {
+    text-align: center;
+    margin: 20px;
+}
+
+.team-member img {
+    max-width: 100%;
+    border-radius: 10%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.team-member h2 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.team-member p {
+    color: #666;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f0f0f0;
+}
+
+#contact {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button.cta-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.cta-button:hover {
+    background-color: #0056b3;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.gallery-item {
+    width: calc(33.33% - 20px); /* Adjust to desired width and margin */
+    margin: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.2s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1); /* Apply a slight zoom effect on hover */
+}
+
+.map-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #000000; /* Add a border around the container */
+    background-color: #b1d7fa;
+    padding: 20px; /* Add some padding inside the container */
+    max-width: 800px; /* Set a maximum width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  
+  .venue-map {
+    margin-bottom: 20px; /* Add some space between the map and the address */
+  }
+
+  
+  .team-member img {
+    box-sizing: border-box; /* Include border in the image size */
+    border: 2px solid transparent;
+    transition: border-color 0.3s;
+}
+
+
+
+.team-member:hover img {
+    border-color: #000000; /* Adjust border color to match the background */
+}
+
+/* Biography Overlay */
+.bio-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 999;
+}
+
+.bio-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#close-bio {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
