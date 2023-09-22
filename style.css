@@ -471,3 +471,21 @@ button.cta-button:hover {
     cursor: pointer;
     font-size: 20px;
 }
+#about {
+    background-color: #f4f4f4; /* Light gray background color */
+    padding: 20px;
+    text-align: center;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* White background for container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow */
+}
+h2 {
+    font-size: 24px;
+    color: #333; /* Dark text color */
+    margin-bottom: 10px;
+}
